@@ -24,7 +24,7 @@ Recurses on the smaller partition to keep recursion depth bounded.
 Recurrence (average): T(n) = 2T(n/2) + O(n)
 Time Complexity: O(n log n) (worst case: O(n²) but unlikely with random pivot)
 
-3. 🎯 Deterministic Select — k-th Element (O(n))
+3. Deterministic Select — k-th Element (O(n))
 
 Uses the Median of Medians algorithm:
 
